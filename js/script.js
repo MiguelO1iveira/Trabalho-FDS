@@ -1,3 +1,4 @@
+// Usando o querySelector para conseguir manipular os elementos da página
 const piano = document.querySelector("#piano");
 const caminhar = document.querySelector("#caminhar");
 const futebol = document.querySelector("#futebol");
@@ -7,6 +8,7 @@ var legenda = document.querySelector("#textoLegenda");
 var frase = document.querySelector("#frase-motivacional");
 var contador = 0;
 
+//Eventos para mudar a imagem
 piano.addEventListener("click", () => {
     imgHobbie.src = "imagens/foto-piano.jpeg";
     legenda.innerHTML = "Minha foto tocando piano";
@@ -22,9 +24,7 @@ futebol.addEventListener("click", () => {
     legenda.innerHTML = "Foto de uma bola de futebol";
 });
 
-
-
-
+// Eventos para mudar a frase e fazer o botão quebrar e depois recuperar ele
 btnMotivacional.addEventListener("click", () => {
     contador++;
     if (contador <= 3) {
@@ -49,6 +49,7 @@ btnMotivacional.addEventListener("click", () => {
             
         }, 10000);
     }
-        
+    
+    // Só para mostrar o contador e me ajudar na lógica
     console.log(contador)
 });

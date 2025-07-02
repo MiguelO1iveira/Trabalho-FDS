@@ -106,6 +106,7 @@ main > section.sectionTodasAtividades {
     padding: 20px 0;
     margin: 5% 0 10% 0;
 }
+/* Section da atividade no momento */
 main > section.sectionTodasAtividades > section.sectionAtividade {
     margin: 0 0 8% 0;
     display: flex;
@@ -115,10 +116,7 @@ main > section.sectionTodasAtividades > section.sectionAtividade {
     padding: 50px 0;
 }
 
-
-
-
-/* Lista */
+/* Lista de atividades */
 main > section.sectionTodasAtividades > section.sectionAtividade ul {
     display: flex;
     flex-direction: column;
@@ -131,7 +129,7 @@ main > section.sectionTodasAtividades > section.sectionAtividade ul {
     
 }
 
-/* Mexendo nas lis da lista não ordenada */
+/* Mexendo nas lis da lista de atividades não ordenada */
 main > section.sectionTodasAtividades > section.sectionAtividade ul > li {
     width: 100%;
     padding: 20px;
@@ -164,7 +162,6 @@ main > section.sectionTodasAtividades > section.sectionAtividade p.legenda {
 }
 
 /* Tabela de lugares que eu quero visitar */
-
 main > table#lugares {
     margin: 2% auto 5% auto;
     border-collapse: collapse;
@@ -183,6 +180,7 @@ main > table#lugares td > img {
     width: 100%;
 }
 
+/* Link para o blog do meu pai */
 main > a#linkPai {
     text-decoration: none;
     color: black;
