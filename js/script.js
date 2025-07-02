@@ -8,17 +8,17 @@ var frase = document.querySelector("#frase-motivacional");
 var contador = 0;
 
 piano.addEventListener("click", () => {
-    imgHobbie.src = "../imagens/Tocando Piano.jpeg";
+    imgHobbie.src = "imagens/foto-piano.jpeg";
     legenda.innerHTML = "Minha foto tocando piano";
 });
 
 caminhar.addEventListener("click", () => {
-    imgHobbie.src = "../imagens/parque-bacacheri.jpg";
+    imgHobbie.src = "imagens/parque-bacacheri.jpg";
     legenda.innerHTML = "Foto do parque Bacacheri";
 });
 
 futebol.addEventListener("click", () => {
-    imgHobbie.src = "../imagens/jogando-futebol.jpeg";
+    imgHobbie.src = "imagens/jogando-futebol.jpeg";
     legenda.innerHTML = "Foto de uma bola de futebol";
 });
 
