@@ -85,7 +85,7 @@ main p.biografia {
     line-height: 1.3;
 }
 
-/* Section atividade */
+/* Section Todas atividade */
 main > section.sectionTodasAtividades {
     background-color: var(--cor3);
     padding: 20px 0;
@@ -132,8 +132,9 @@ main > section.sectionTodasAtividades > section.sectionAtividade ul > li:hover {
 /* Imagem da atividade */
 main > section.sectionTodasAtividades > section.sectionAtividade > picture > img.imgAtividade {
     width: 100%;
+    height: 50%;
     border-radius: 90px;
-    
+    transition: 0.7s;
 }
 main > section.sectionTodasAtividades > section.sectionAtividade > picture {
     width: 30%;
